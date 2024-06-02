@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Package1.Extend_Reports">
+      <class name="Assertion_Practice.HardAssertions">
         <methods>
-          <include name="getdata"/>
+          <include name="soft_assert"/>
         </methods>
-      </class> <!-- Package1.Extend_Reports -->
+      </class> <!-- Assertion_Practice.HardAssertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
