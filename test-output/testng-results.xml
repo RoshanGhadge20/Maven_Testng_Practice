@@ -1,57 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T20:49:00 IST" name="Grouping_with_classes" finished-at="2024-06-07T20:49:00 IST" duration-ms="91">
+  <suite started-at="2024-06-07T20:59:24 IST" name="Suite" finished-at="2024-06-07T20:59:24 IST" duration-ms="62">
     <groups>
-      <group name="Sanity">
-        <method signature="AppTest1.Test1()[pri:0, instance:Package1.AppTest1@117e949d]" name="Test1" class="Package1.AppTest1"/>
-        <method signature="AppTest2.Test4()[pri:0, instance:Package1.AppTest2@683dbc2c]" name="Test4" class="Package1.AppTest2"/>
-        <method signature="AppTest3.Test7()[pri:0, instance:Package1.AppTest3@68267da0]" name="Test7" class="Package1.AppTest3"/>
-      </group> <!-- Sanity -->
+      <group name="smoke">
+        <method signature="AppTest4.Test10()[pri:0, instance:Package1.AppTest4@37271612]" name="Test10" class="Package1.AppTest4"/>
+        <method signature="AppTest4.Test11()[pri:0, instance:Package1.AppTest4@37271612]" name="Test11" class="Package1.AppTest4"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-06-07T20:49:00 IST" name="Test" finished-at="2024-06-07T20:49:00 IST" duration-ms="91">
-      <class name="Package1.AppTest1">
-        <test-method signature="Test1()[pri:0, instance:Package1.AppTest1@117e949d]" started-at="2024-06-07T20:49:00 IST" name="Test1" finished-at="2024-06-07T20:49:00 IST" duration-ms="16" status="PASS">
+    <test started-at="2024-06-07T20:59:24 IST" name="Test" finished-at="2024-06-07T20:59:24 IST" duration-ms="62">
+      <class name="Package1.AppTest4">
+        <test-method signature="Test10()[pri:0, instance:Package1.AppTest4@37271612]" started-at="2024-06-07T20:59:24 IST" name="Test10" finished-at="2024-06-07T20:59:24 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method signature="Test3(java.lang.String)[pri:0, instance:Package1.AppTest1@117e949d]" started-at="2024-06-07T20:49:00 IST" name="Test3" data-provider="data_pro" finished-at="2024-06-07T20:49:00 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Roshan]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Test10 -->
+        <test-method signature="Test11()[pri:0, instance:Package1.AppTest4@37271612]" started-at="2024-06-07T20:59:24 IST" name="Test11" finished-at="2024-06-07T20:59:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-      </class> <!-- Package1.AppTest1 -->
-      <class name="Package1.AppTest2">
-        <test-method signature="Test4()[pri:0, instance:Package1.AppTest2@683dbc2c]" started-at="2024-06-07T20:49:00 IST" name="Test4" finished-at="2024-06-07T20:49:00 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test4 -->
-        <test-method signature="Test5()[pri:0, instance:Package1.AppTest2@683dbc2c]" started-at="2024-06-07T20:49:00 IST" name="Test5" finished-at="2024-06-07T20:49:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test5 -->
-        <test-method signature="Test6()[pri:0, instance:Package1.AppTest2@683dbc2c]" started-at="2024-06-07T20:49:00 IST" name="Test6" finished-at="2024-06-07T20:49:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test6 -->
-      </class> <!-- Package1.AppTest2 -->
-      <class name="Package1.AppTest3">
-        <test-method signature="Test7()[pri:0, instance:Package1.AppTest3@68267da0]" started-at="2024-06-07T20:49:00 IST" name="Test7" finished-at="2024-06-07T20:49:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test7 -->
-        <test-method signature="Test8()[pri:0, instance:Package1.AppTest3@68267da0]" started-at="2024-06-07T20:49:00 IST" name="Test8" finished-at="2024-06-07T20:49:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test8 -->
-      </class> <!-- Package1.AppTest3 -->
+        </test-method> <!-- Test11 -->
+      </class> <!-- Package1.AppTest4 -->
     </test> <!-- Test -->
-  </suite> <!-- Grouping_with_classes -->
+  </suite> <!-- Suite -->
 </testng-results>
