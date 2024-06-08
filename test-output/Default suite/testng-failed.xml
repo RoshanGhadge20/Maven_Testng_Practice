@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Assertion_Practice.HardAssertions">
+      <class name="Package1.parameterization_practice">
         <methods>
-          <include name="soft_assert"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- Assertion_Practice.HardAssertions -->
+      </class> <!-- Package1.parameterization_practice -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

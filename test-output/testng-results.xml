@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T20:59:24 IST" name="Suite" finished-at="2024-06-07T20:59:24 IST" duration-ms="62">
+  <suite started-at="2024-06-08T12:19:40 IST" name="Suite" finished-at="2024-06-08T12:19:50 IST" duration-ms="10311">
     <groups>
-      <group name="smoke">
-        <method signature="AppTest4.Test10()[pri:0, instance:Package1.AppTest4@37271612]" name="Test10" class="Package1.AppTest4"/>
-        <method signature="AppTest4.Test11()[pri:0, instance:Package1.AppTest4@37271612]" name="Test11" class="Package1.AppTest4"/>
-      </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-06-07T20:59:24 IST" name="Test" finished-at="2024-06-07T20:59:24 IST" duration-ms="62">
-      <class name="Package1.AppTest4">
-        <test-method signature="Test10()[pri:0, instance:Package1.AppTest4@37271612]" started-at="2024-06-07T20:59:24 IST" name="Test10" finished-at="2024-06-07T20:59:24 IST" duration-ms="11" status="PASS">
+    <test started-at="2024-06-08T12:19:40 IST" name="Test" finished-at="2024-06-08T12:19:50 IST" duration-ms="10311">
+      <class name="Package1.parameterization_practice">
+        <test-method signature="start(java.lang.String,java.lang.String)[pri:0, instance:Package1.parameterization_practice@4c309d4d]" started-at="2024-06-08T12:19:40 IST" name="start" finished-at="2024-06-08T12:19:50 IST" duration-ms="10274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.qable.io/blog/basic-of-testng-how-we-can-use-it-in-the-testing]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test10 -->
-        <test-method signature="Test11()[pri:0, instance:Package1.AppTest4@37271612]" started-at="2024-06-07T20:59:24 IST" name="Test11" finished-at="2024-06-07T20:59:24 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test11 -->
-      </class> <!-- Package1.AppTest4 -->
+        </test-method> <!-- start -->
+      </class> <!-- Package1.parameterization_practice -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

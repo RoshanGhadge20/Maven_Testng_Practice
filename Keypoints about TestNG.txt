@@ -1,0 +1,30 @@
+Key Points:- 
+-TestNG is a testing framework for Java that helps automate tests.
+-It offers features like annotations, assertions and functionalities for data-driven testing and parallel testing.
+-TestNG provides more powerful and flexible functionalities compared to JUnit.
+-Common uses include unit testing, integration testing and end-to-end testing.
+-You can write test cases in TestNG using annotations and leverage functionalities like parameterization.
+
+Advantages of TestNG:- 
+- It provides a powerful and wide variety of annotations to support your test cases.
+- Supports parameterized and dependency tests.
+- Support for data-driven testing.
+- Supported by a variety of tools and plug-ins (Eclipse, IDEA, Maven, etc).
+-It helps to perform parallel testing, dependent method testing.
+-It offers the flexibility to run your tests through multiple data sets through the TestNG.xml file or via the data-provider concept.
+-Test cases can be grouped and prioritized as per need basis.
+-Provides access to HTML reports and can be customized through various plugins.
+-With its Test logs can be generated across tests.
+
+Advantages of TestNG over JUnit
+Flexible Annotations: TestNG provides more flexible annotations for test methods, allowing for better customization and organization of test cases.
+Parameterized Tests: TestNG supports parameterized tests, enabling the same test method to be executed with different inputs, enhancing test coverage.
+Dependency Management: TestNG allows for specifying dependencies between test methods, ensuring proper test execution order and reducing test flakiness.
+Parallel Execution: TestNG supports parallel execution of tests out of the box, improving testing speed and efficiency, which is not as straightforward in JUnit.
+XML Configuration: TestNG allows configuration through XML files, providing more control and flexibility in defining test suites and configurations compared to JUnit annotations.
+Reporting: TestNG offers comprehensive HTML reports with detailed information on test execution results, making it easier to analyze and debug test failures.
+
+Disadvantages of TestNG?
+Setup of TestNG is time-consuming.
+If your project does not require test case prioritization that case TestNG is of no use.
+In the olden day, it was less commonly used compared to JUnit, so fewer people was having experience with it.
