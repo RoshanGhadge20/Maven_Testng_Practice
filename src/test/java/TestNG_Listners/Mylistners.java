@@ -16,5 +16,10 @@ public class Mylistners implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("Method passed :- "+ result.getName());
 	}
+	
+	public void onFinish(ITestResult result)
+	{
+		System.out.println("All the test case execution has completed "+ result.getMethod());
+	}
 
 }

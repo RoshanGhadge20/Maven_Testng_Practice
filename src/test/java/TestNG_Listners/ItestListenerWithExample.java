@@ -1,6 +1,7 @@
 package TestNG_Listners;
 import org.testng.Assert;
 import org.testng.SkipException;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -28,8 +29,6 @@ Assert.assertEquals(i, 11);
 public void testMethod3()
 {
 System.out.println("This method will skip and will invoke the onTestSkipped method of ITestlistener");
-throw new SkipException("Skipping this test case.");
-
 }
 
 }
