@@ -1,0 +1,17 @@
+Maven Build Lifecycle:
+1. The Maven build lifecycle consists of the following phases:
+
+validate
+compile
+test
+package
+verify
+install
+deploy
+2. The Build phase (mvn compile, mvn test, mvn package, etc.) automates the compilation, testing, and packaging processes.
+
+3. It ensures consistent and reliable builds across different test environments.
+
+4. Maven’s dependency management handles the resolution and integration of external libraries, simplifying the development process.
+
+5. Build reports and test results provide valuable insights into the project’s health and code quality.
