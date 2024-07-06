@@ -10,12 +10,24 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.core.sym.Name;
 
 public class Annotations_Example 
 {
 		
+	
+	@DataProvider(name = "data_provider_method")
 	@Test
+	public void m12()
+	{
+		System.out.println("Calling Test Method");
+	}
+	
+	
+	@Test(alwaysRun = true,dataProvider ="data_provider_method" )
 	public void m1()
 	{
 		System.out.println("Calling Test Method");
