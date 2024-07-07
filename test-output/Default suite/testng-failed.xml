@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Package1.AppTest5">
+      <class name="iRetryAnalyzer.retry_example">
         <methods>
-          <include name="test15"/>
-          <include name="test17"/>
-          <include name="test18"/>
+          <include name="sample"/>
         </methods>
-      </class> <!-- Package1.AppTest5 -->
+      </class> <!-- iRetryAnalyzer.retry_example -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

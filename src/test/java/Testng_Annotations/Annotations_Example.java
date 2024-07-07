@@ -97,4 +97,13 @@ public class Annotations_Example
 		System.out.println("Calling After groups Method");
 	}
 	
+	/*
+	 * Heirarchy of Execution 
+	 * 1. Suite 
+	 * 2. Before Test 
+	 * 3. Class 
+	 * 4. Method 
+	 * 5. test
+	 * 
+	 */
 }
