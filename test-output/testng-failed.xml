@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng_Annotations.Annotations_Example">
+      <class name="TestNG_Listners.ItestListenerWithExample">
         <methods>
-          <include name="m9"/>
-          <include name="m5"/>
-          <include name="m8"/>
-          <include name="m7"/>
-          <include name="m1"/>
-          <include name="m4"/>
-          <include name="m3"/>
-          <include name="m6"/>
-          <include name="m2"/>
+          <include name="testMethod2"/>
         </methods>
-      </class> <!-- Testng_Annotations.Annotations_Example -->
+      </class> <!-- TestNG_Listners.ItestListenerWithExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

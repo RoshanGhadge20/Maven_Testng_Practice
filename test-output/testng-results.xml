@@ -1,37 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-21T12:02:13 IST" name="Suite" finished-at="2024-07-21T12:02:13 IST" duration-ms="82">
+  <suite started-at="2024-07-21T12:10:52 IST" name="Default suite" finished-at="2024-07-21T12:10:53 IST" duration-ms="651">
     <groups>
-      <group name="smoke">
-        <method signature="group_in_testng.demo3()[pri:3, instance:Grouping_test_cases.group_in_testng@57250572]" name="demo3" class="Grouping_test_cases.group_in_testng"/>
-        <method signature="group_in_testng.demo4()[pri:4, instance:Grouping_test_cases.group_in_testng@57250572]" name="demo4" class="Grouping_test_cases.group_in_testng"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="group_in_testng.demo1()[pri:1, instance:Grouping_test_cases.group_in_testng@57250572]" name="demo1" class="Grouping_test_cases.group_in_testng"/>
-        <method signature="group_in_testng.demo2()[pri:2, instance:Grouping_test_cases.group_in_testng@57250572]" name="demo2" class="Grouping_test_cases.group_in_testng"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-07-21T12:02:13 IST" name="Test" finished-at="2024-07-21T12:02:13 IST" duration-ms="82">
-      <class name="Grouping_test_cases.group_in_testng">
-        <test-method signature="demo1()[pri:1, instance:Grouping_test_cases.group_in_testng@57250572]" started-at="2024-07-21T12:02:13 IST" name="demo1" finished-at="2024-07-21T12:02:13 IST" duration-ms="15" status="PASS">
+    <test started-at="2024-07-21T12:10:52 IST" name="Default test" finished-at="2024-07-21T12:10:53 IST" duration-ms="651">
+      <class name="TestNG_Listners.ItestListenerWithExample">
+        <test-method signature="testMethod1()[pri:0, instance:TestNG_Listners.ItestListenerWithExample@49e5f737]" started-at="2024-07-21T12:10:52 IST" name="testMethod1" finished-at="2024-07-21T12:10:52 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo1 -->
-        <test-method signature="demo2()[pri:2, instance:Grouping_test_cases.group_in_testng@57250572]" started-at="2024-07-21T12:02:13 IST" name="demo2" finished-at="2024-07-21T12:02:13 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:TestNG_Listners.ItestListenerWithExample@49e5f737]" started-at="2024-07-21T12:10:52 IST" name="testMethod2" finished-at="2024-07-21T12:10:53 IST" duration-ms="584" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [11] but found [10]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [11] but found [10]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at TestNG_Listners.ItestListenerWithExample.testMethod2(ItestListenerWithExample.java:25)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo2 -->
-        <test-method signature="demo3()[pri:3, instance:Grouping_test_cases.group_in_testng@57250572]" started-at="2024-07-21T12:02:13 IST" name="demo3" finished-at="2024-07-21T12:02:13 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testMethod2 -->
+        <test-method signature="testMethod3()[pri:0, instance:TestNG_Listners.ItestListenerWithExample@49e5f737]" started-at="2024-07-21T12:10:53 IST" name="testMethod3" finished-at="2024-07-21T12:10:53 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo3 -->
-        <test-method signature="demo4()[pri:4, instance:Grouping_test_cases.group_in_testng@57250572]" started-at="2024-07-21T12:02:13 IST" name="demo4" finished-at="2024-07-21T12:02:13 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo4 -->
-      </class> <!-- Grouping_test_cases.group_in_testng -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testMethod3 -->
+      </class> <!-- TestNG_Listners.ItestListenerWithExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

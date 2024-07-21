@@ -3,9 +3,10 @@ package paramertization_example;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class example {
+public class example 
+{
 
-	@Test
+	@Test(enabled = true)
 	@Parameters({ "Username", "Password" })
 	public void demo(String Username, String Password) {
 		System.out.println("Example of parameterization");
