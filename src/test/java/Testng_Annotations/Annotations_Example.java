@@ -17,8 +17,6 @@ import com.fasterxml.jackson.core.sym.Name;
 
 public class Annotations_Example 
 {
-		
-	
 	@DataProvider(name = "data_provider_method")
 	@Test
 	public void m12()
@@ -71,7 +69,6 @@ public class Annotations_Example
 		System.out.println("Calling After suite Method");
 	}
 	
-	
 	@BeforeClass
 	public void m8()
 	{
@@ -100,10 +97,13 @@ public class Annotations_Example
 	/*
 	 * Heirarchy of Execution 
 	 * 1. Suite 
-	 * 2. Before Test 
+	 * 2. Test 
 	 * 3. Class 
 	 * 4. Method 
-	 * 5. test
+	 * 5. Test
 	 * 
+	 * 
+	 * For Annotations we are use 
+	 * org.testng.annotations.--
 	 */
 }
