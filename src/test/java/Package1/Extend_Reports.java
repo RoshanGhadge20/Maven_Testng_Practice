@@ -2,17 +2,14 @@ package Package1;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Extend_Reports {
 	 ExtentReports ex;
 	
-
 	public void  Reportgeneration() {
 		new ExtentReports();
 		String path=System.getProperty("User.dir")+"ExtentReport.html";
@@ -46,5 +43,15 @@ public class Extend_Reports {
 	
 	/*
 	 * @AfterClass public void tearDown() { //driver.quit(); ex.flush(); }
+	 */
+	
+	/*
+	 * Selenium provides built-in reporting capabilities through frameworks like TestNG, JUnit, and 
+	 * more. While these built-in reports offer basic information, custom reporting is often 
+	 * necessary to provide detailed insights into test execution.
+	 * To help generate custom reports and make them more presentable, you can use 
+	 * Extent Reports.
+	 * 
+	 */
 	 */
 }

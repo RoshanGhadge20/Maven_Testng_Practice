@@ -1,19 +1,16 @@
 package TestNG_Listners;
-import org.testng.Assert;
-import org.testng.SkipException;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
-public class ItestListenerWithExample 
-{
-	int i=0;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class ItestListenerWithExample {
+	int i = 0;
 
 	@Test
-	public void testMethod1()
+	public void testMethod1() 
 	{
 		System.out.println("This method will pass and will invoke the onTestSuccess method of ITestlistener");
-		int i=10;
+		int i = 10;
 		Assert.assertEquals(i, 10);
 	}
 
@@ -21,7 +18,7 @@ public class ItestListenerWithExample
 	public void testMethod2()
 	{
 		System.out.println("This method will fail and will invoke the onTestFailure method of ITestlistener");
-		int i=10;
+		int i = 10;
 		Assert.assertEquals(i, 11);
 	}
 
