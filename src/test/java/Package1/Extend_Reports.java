@@ -10,7 +10,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Extend_Reports {
 	 ExtentReports ex;
 	
-	public void  Reportgeneration() {
+	public void  Reportgeneration() 
+	{
 		new ExtentReports();
 		String path=System.getProperty("User.dir")+"ExtentReport.html";
 		ExtentSparkReporter reporter=new ExtentSparkReporter(path);
@@ -53,5 +54,7 @@ public class Extend_Reports {
 	 * Extent Reports.
 	 * 
 	 */
-	 */
+	
 }
+
+
